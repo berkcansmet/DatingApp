@@ -35,7 +35,7 @@ class BalanceScreen extends Component {
                 color="green"
                 style={styles.checkBox}
               />
-              <Text style={styles.balaceBuyText1}>25.00 TL</Text>
+              <Text style={styles.balaceBuyText1}>25.00 $</Text>
             </View>
           </View>
           <View style={styles.balaceBuy}>
@@ -47,7 +47,7 @@ class BalanceScreen extends Component {
                 color="green"
                 style={styles.checkBox}
               />
-              <Text style={styles.balaceBuyText1}>50.00 TL</Text>
+              <Text style={styles.balaceBuyText1}>50.00 $</Text>
             </View>
           </View>
           <View style={styles.balaceBuy}>
@@ -60,17 +60,14 @@ class BalanceScreen extends Component {
                 style={styles.checkBox}
               />
               <View>
-                <Text style={styles.balaceBuyText2}>%25 Kar edin*</Text>
-                <Text style={styles.balaceBuyText1}>125.00 TL</Text>
+                <Text style={styles.balaceBuyText2}>Save 25% *</Text>
+                <Text style={styles.balaceBuyText1}>125.00 $</Text>
               </View>
             </View>
           </View>
         </View>
         <View style={styles.buyButton}>
-          <Button
-            buttonStyle={styles.button}
-            title="Google Play ile satın al"
-          />
+          <Button buttonStyle={styles.button} title="Buy on Google Play" />
         </View>
       </View>
     );

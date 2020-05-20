@@ -35,14 +35,14 @@ class Profile extends Component {
             <Text style={styles.editProfileText}>Edit Profile</Text>
           </View>
           <View style={styles.premiumFinder}>
-            <Text style={styles.premiumFinderText}>Şimdi Premium'u Keşfet</Text>
+            <Text style={styles.premiumFinderText}>Discover Premium Now</Text>
           </View>
           <TouchableOpacity
             onPress={() => this.props.navigation.navigate('BalanceScreen')}>
             <View style={styles.balance}>
               <View>
-                <Text style={styles.balanceText}>Bakiye: 0 Kredi</Text>
-                <Text style={styles.balanceAddText}>Hemen Kredi Al</Text>
+                <Text style={styles.balanceText}>Balance: 0 Credit</Text>
+                <Text style={styles.balanceAddText}>Buy Credit Now</Text>
               </View>
               <View />
               <View style={styles.diamondIcon}>
@@ -54,8 +54,8 @@ class Profile extends Component {
             onPress={() => this.props.navigation.navigate('DiamondScreen')}>
             <View style={styles.balance}>
               <View>
-                <Text style={styles.balanceText}>Bakiye: 0 Elmas</Text>
-                <Text style={styles.balanceAddText}>Hemen Elmas Al</Text>
+                <Text style={styles.balanceText}>Balance: 0 Diamond</Text>
+                <Text style={styles.balanceAddText}>Buy Diamond Now</Text>
               </View>
               <View />
               <View style={styles.diamondIcon}>

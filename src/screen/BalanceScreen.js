@@ -19,12 +19,12 @@ class BalanceScreen extends Component {
             <Icon name="close" size={35} color="grey" />
           </TouchableOpacity>
           <View>
-            <Text style={styles.bannerText}>Guk App Kredileri</Text>
+            <Text style={styles.bannerText}>Guk App Credit</Text>
           </View>
         </Header>
         <View style={styles.balaceBuyContainer}>
           <View style={styles.balaceBuy}>
-            <Text style={styles.balaceBuyText}>500 Kredi</Text>
+            <Text style={styles.balaceBuyText}>500 Credit</Text>
             <View style={styles.checkBoxContainer}>
               <CheckBox
                 onPress={() => this.setState({checked: !this.state.checked})}
@@ -32,11 +32,11 @@ class BalanceScreen extends Component {
                 color="green"
                 style={styles.checkBox}
               />
-              <Text style={styles.balaceBuyText1}>25.00 TL</Text>
+              <Text style={styles.balaceBuyText1}>25.00 $</Text>
             </View>
           </View>
           <View style={styles.balaceBuy}>
-            <Text style={styles.balaceBuyText}>1.000 Kredi</Text>
+            <Text style={styles.balaceBuyText}>1.000 Credit</Text>
             <View style={styles.checkBoxContainer}>
               <CheckBox
                 onPress={() => this.setState({checked: !this.state.checked})}
@@ -44,11 +44,11 @@ class BalanceScreen extends Component {
                 color="green"
                 style={styles.checkBox}
               />
-              <Text style={styles.balaceBuyText1}>50.00 TL</Text>
+              <Text style={styles.balaceBuyText1}>50.00 $</Text>
             </View>
           </View>
           <View style={styles.balaceBuy}>
-            <Text style={styles.balaceBuyText}>3.000 Kredi</Text>
+            <Text style={styles.balaceBuyText}>3.000 Credit</Text>
             <View style={styles.checkBoxContainer}>
               <CheckBox
                 onPress={() => this.setState({checked: !this.state.checked})}
@@ -57,8 +57,8 @@ class BalanceScreen extends Component {
                 style={styles.checkBox}
               />
               <View>
-                <Text style={styles.balaceBuyText2}>%25 Kar edin*</Text>
-                <Text style={styles.balaceBuyText1}>125.00 TL</Text>
+                <Text style={styles.balaceBuyText2}>Save 25% *</Text>
+                <Text style={styles.balaceBuyText1}>125.00 $</Text>
               </View>
             </View>
           </View>

@@ -35,20 +35,20 @@ class WelcomeScreen extends Component {
           <View style={styles.footer}>
             <Button
               onPress={() => this.props.navigation.navigate('HomeNavigator')}
-              title="Facebook ile giriş yap"
+              title="Login with Facebook"
               buttonStyle={styles.button}
               titleStyle={styles.buttonTitle}
             />
             <Button
-              title="Cep telefonu ile giriş yap"
+              title="Login with Mobile Phone"
               buttonStyle={styles.button}
               titleStyle={styles.buttonTitle}
             />
             <Text style={styles.footerText}>
-              Facebookta senin adına paylaşım yapmayacağız.
+              We will not share on behalf of you on Facebook.
             </Text>
             <Text style={styles.footerText}>
-              Hizmet Koşulları ve Gizlilik Politikası
+              Terms of Service and Privacy Policy
             </Text>
           </View>
         </SafeAreaView>
