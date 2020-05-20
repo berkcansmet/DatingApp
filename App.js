@@ -11,51 +11,26 @@ console.disableYellowBox = true;
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={'WelcomeScreen'} headerMode={'none'}>
+      <Stack.Navigator headerMode={'none'} initialRouteName={'WelcomeScreen'} headerMode={'none'}>
         <Stack.Screen
           name="WelcomeScreen"
           component={WelcomeScreen}
-          options={{
-            headerStyle: {
-              display: 'none',
-            },
-          }}
         />
         <Stack.Screen
           name="HomeNavigator"
           component={HomeNavigator}
-          options={{
-            headerStyle: {
-              display: 'none',
-            },
-          }}
         />
         <Stack.Screen
           name="Profile"
           component={Profile}
-          options={{
-            headerStyle: {
-              display: 'none',
-            },
-          }}
         />
         <Stack.Screen
           name="BalanceScreen"
           component={BalanceScreen}
-          options={{
-            headerStyle: {
-              display: 'none',
-            },
-          }}
         />
         <Stack.Screen
           name="DiamondScreen"
           component={DiamondScreen}
-          options={{
-            headerStyle: {
-              display: 'none',
-            },
-          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
