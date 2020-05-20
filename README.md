@@ -4,7 +4,7 @@
 
 ## Demo
 
-<a href="https://imgflip.com/gif/424n79"><img src="https://imgflip.com/embed/424n79" title="via Imgflip" ></a>
+![Basic Dating App Demo](demo/demo.gif)
 
 ## Installation
 

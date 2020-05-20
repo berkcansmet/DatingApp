@@ -82,9 +82,7 @@ class FinderCard extends Component {
           )}
           ref={swiper => {
             this.swiper = swiper;
-          }}
-          onSwiped={() => console.log('onSwiped')}
-          onSwipedLeft={() => console.log('onSwipedLeft')}>
+          }}>
           {this.renderSwiper()}
         </CardStack>
 
@@ -100,7 +98,7 @@ class FinderCard extends Component {
             <TouchableOpacity
               style={[styles.button, styles.superLike]}
               onPress={() => {
-                this.swiper.goBackFromLeft();
+                this.swiper.swipeTop();
               }}>
               <Icon name="star" color="yellow" size={40} />
             </TouchableOpacity>
