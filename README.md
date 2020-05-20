@@ -10,6 +10,7 @@
 
 **Clone Project and Run Commands**
 
-- [ ] cd ProjectFile
+- [ ] cd datingApp
+- [ ] npm install // or yarn install
 - [ ] react-native link
 - [ ] react-native run-android
